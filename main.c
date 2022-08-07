@@ -1,7 +1,7 @@
 #include"SWUART.h"
 #include"Timer0.h"
 #include"platform.h"
-#define DATA        10
+#define DATA       (uint8_t)10
 
 
 #define  MC_READY   0x11 /*to mak sure it will send & receive correctly*/
